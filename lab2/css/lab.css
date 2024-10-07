@@ -28,8 +28,5 @@ p {
   margin: 10px;
   border: solid 1px #e8ecf0;
   font-size: 20px;
-}
-#div {
-  color: orange;
 
-}
+<div id="name" class="class_name">

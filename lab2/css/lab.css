@@ -26,7 +26,7 @@ p {
   min-height: 300px;
   padding: 10px;
   margin: 10px;
-  border: solid 1px #e8ecf0;
+  border: solid 10px #e8ecf0;
   font-size: 20px;
   div {border-style: dotted;}
 }

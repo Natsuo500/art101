@@ -28,5 +28,5 @@ p {
   margin: 10px;
   border: solid 10px #044c98;
   font-size: 20px;
-  div {border-style: groove;}
+  div {border-style: dotted;}
 }

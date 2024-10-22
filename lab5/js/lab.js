@@ -1,6 +1,11 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/**
+ * Author:    Bryan G.
+ * Created:   10.21.2024
+ * 
+ * (c) Copyright by Blub Corp.
+ **/
+
+
 
 // Constants
 
@@ -19,3 +24,22 @@ function main() {
 
 // let's get this party started
 main();
+
+//Define Variables 
+make = "monky";
+model = "Tree";
+color = "Brown";
+year = "2004";
+
+
+//Calculate
+age = 2024 - Year;
+
+
+//output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "years<br>");
+

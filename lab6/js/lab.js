@@ -19,3 +19,26 @@ function main() {
 
 // let's get this party started
 main();
+
+
+//define Variables
+myTransport = ["Walking", "Bus", "Car"];
+
+
+//create an object for my main ride
+myMainRide = {
+  make: "Ford",
+  model: "Taurus",
+  color: "Rusty",
+  year: 1995,
+  age: function(){
+    return 2022 - this.year;
+  }
+}
+
+//output
+document.writeln("Getting around: " + myTransport + "<br>");
+
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
+

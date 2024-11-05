@@ -1,0 +1,19 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.special {
+    background-color: lavender;
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
+}
+
+.minor-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #6c1616;
+    border-width: 5px;
+    background-color: blueviolet;
+}

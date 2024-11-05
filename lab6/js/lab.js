@@ -36,6 +36,7 @@ myMainRide = {
   }
 }
 
+
 //output
 document.writeln("Getting around: " + myTransport + "<br>");
 

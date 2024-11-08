@@ -5,7 +5,6 @@
  * (c) Copyright by Blub Corp.
  **/
 
-
 // add button to challenge section
 $("#challenge").append("<button id='button-challenge'>Ok what happened</button>");
 
@@ -16,8 +15,6 @@ $("#button-challenge").click(function(){
 });
 
 
-
-
 // add button to Problems section
 $("#Problems").append("<button id='button-Problems'>let's not stick here and find out </button>");
 
@@ -26,8 +23,6 @@ $("#button-Problems").click(function(){
     // now add (or subtract) the "special" class to the section
     $("#Problems").toggleClass("special");
 });
-
-
 
 
 // add button to Results section

@@ -1,0 +1,59 @@
+.minor-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #6c1616;
+    border-width: 5px;
+    background-color: blueviolet;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+#content .text-part {
+  flex: 1;
+}
+
+#content .image-part {
+  flex: 1;
+  padding-top: 30px;
+}
+
+
+.namebadge {
+  width: 500px;
+}
+
+.namebadge img {
+  width: 100%;
+  height: auto;
+}
+
+
+#output {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -220px;
+  height: 200px;
+  max-width: 460px;
+  margin-left: 20px;
+  word-wrap: break-word;
+  font-size: 80px;
+  line-height: 90%;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+}
+
+
+#Background {
+  padding: 50px;
+  background-color: PapayaWhip;
+  border: solid 1px #333333;
+  min-height: 80vh;
+}

@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: tan;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: PapayaWhip;
+    border: solid 1px #333333;
+    min-height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+.linkbox {
+    padding: 10px;
+    font-size: 80%;
+}
+.homelink {
+    text-align: left;
+}
+
+#output {
+    position: absolute;
+    right: 350px;
+    padding: 50px;
+    border-radius: 150px;
+    border: solid 2px black;
+    background-color: white;
+    width: 500px;
+}
+
+
+.input-output {
+    border: solid 1px #333333;
+    padding: 10px 10px 30px;
+}
+
+#my-portrait {
+    float: right; 
+    margin: 20px;
+    max-width: 600px;
+  }

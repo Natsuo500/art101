@@ -1,0 +1,21 @@
+div#input, div#output {
+    border: solid 1px #ccc;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.cols {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+}
+
+.error {
+    color: rgb(34, 23, 179);
+    font-weight: bold;
+}

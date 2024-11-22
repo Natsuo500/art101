@@ -20,10 +20,10 @@ function main() {
 main();
 
 //Define Variables 
-make = "monky";
-model = "Tree";
-color = "Brown";
-year = 2004;
+make = "Ford";
+model = "Tuarus";
+color = "Rusty";
+year = 1995;
 
 //Calculate
 age = 2024 - year; 
@@ -33,4 +33,4 @@ document.writeln("Make: " + make + "<br>");
 document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
-document.writeln("Age: " + age + "years<br>");
+document.writeln("Age: " + age + " years<br>");

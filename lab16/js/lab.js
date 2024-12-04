@@ -7,13 +7,13 @@ let ajaxConfig = {
   type: "GET", // HTTP method
   dataType: "json",
   data: {
-    api_key:"NP37VY8H9DzYjtBUwDLnc3k0nJF9OlQ5DAQ66FBR", // API token
+    api_key:"kZyabAD0PcwPuAkgAOBB2yZPiu2QwfizgL1UMrpp", // API token
     count: 1,
   },
   success: function(data) { // Success handler
     let record = data[0]; 
-    $("#output").append("<h2>" + data.title);
-    $("#output").append(`<img src='${data.url}' />`);
+    $("#output").append("<h2>" + record.title);
+    $("#output").append(`<img src='${record.url}' />`);
     $("#output").append("<p>" + record.explanation);
   }, 
   error: function(xhr, status, error) { // Error handler
